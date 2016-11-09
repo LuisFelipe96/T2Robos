@@ -1,6 +1,7 @@
 #ifndef __ROBO_H__
 #define __ROBO_H__
 
+#include <Labirinto.h>
 class Robo{
 	public:
 	Robo(const Point& posIni, Labirinto* lab, int maxSteps){
