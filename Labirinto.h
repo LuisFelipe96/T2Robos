@@ -19,7 +19,7 @@ class Labirinto
 	virtual int  getHeight() = 0;
     virtual int  getRobot() = 0;
     virtual Point getIniPos() = 0;
-	virtual void loadMaze(string arquivo) = 0;
+	virtual void loadMaze(const char *arquivo) = 0;
 };
 
 #endif

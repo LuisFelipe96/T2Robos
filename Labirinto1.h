@@ -12,7 +12,7 @@ class Labirinto1 : public Labirinto {
         bool isEmpty(const Point& ponto) const;
     	int  getWidth();
     	int  getHeight();
-    	void loadMaze(string arquivo);
+    	void loadMaze(const char *arquivo);
         int  getRobot();
         Point getIniPos();
 	private:
